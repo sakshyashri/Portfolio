@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+body {
+    background-color: white;
+    color: black;
+
+}
+span{
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Roboto Mono', monospace;
+    color: purple;
+    text-align: center;
+    
+}
+.contain{
+    text-align: center;
+    margin-top: 30px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color:black;
+
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    align-items: center;
+}
+nav ul li{
+    display: flex;
+    list-style: none;
+    padding:  0 23px;
+    font-size: 1.25rem;
+    height: 70px;
+    align-items: center;
+    
+}
+nav ul li a{
+   text-decoration: none;
+   color: white;
+   font-size: 1.25rem;
+    
+}
+
+nav ul :hover{
+    
+    background-color:purple;
+    
+}
+.left{
+    font-size: 2.5rem;
+    margin-right: 300px;
+    color: white;
+}
+.first{
+    display: flex;
+    margin: 23px 0;
+    justify-content: space-around;
+
+}
+.first div{
+    width: 30%;
+    margin-bottom: 0;
+    margin-top: 120px;
+
+}
+.leftsection{
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: 'Roboto Mono', monospace;
+   margin-top: 100px;
+   
+}
+.leftsection p {
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 10px;
+    color: black;
+    
+    
+   
+}
+.rightsection img {
+    display: flex;
+    margin: 30px 0;    
+    justify-content: center;
+    width: 80%;
+
+
+}
+hr{
+    margin-left: 6%;
+    margin-right: 6%;
+    border: 0;
+    background-color: purple;
+    height: 2px;
+    border-radius: 2px;
+}
+
+.secondsection{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80vw;
+    font-weight: 700;
+    height: 80vh;
+    
+    
+}
+.secondsection img{
+    width :50%;
+    margin-left: 20%;
+    margin-right: 25%;
+    margin-top: 30px;
+}
+
+.con1 h1{
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+    margin: 50px;
+    font-weight: 1000;
+
+
+}
+.con1 p {
+    color: purple;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 100;
+    font-family: 'Roboto Mono', monospace;
+
+
+}
+.conicon {
+   display: flex;
+   flex-direction: column;  /* Stack icon and text vertically */
+   align-items: center;
+   text-align: center;
+   margin: 1%;
+   color: white;
+}
+
+.conicon i {
+   background-color: black;  /* Background color for the icon */
+   border-radius: 50%;  /* Make the background circular */
+   padding: 20px;  /* Set fixed dimensions for the circular background */
+   margin-bottom: 10px;  /* Adjust the space between icon and text */
+   color: white;  /* Set the icon color to match the text color */
+   
+}
+
+.conicon i.fa-regular,
+.conicon i.fa-solid,
+.conicon i.fa-brands {
+   background-color: black;  /* Background color for the icon */
+   border-radius: 50%;  /* Make the background circular */
+   padding: 20px;  /* Set fixed dimensions for the circular background */
+   margin-bottom: 10px;  /* Adjust the space between icon and text */
+   color: white;  /* Set the icon color to match the text color */
+}
+
+.conicon p {
+    margin: 0;  /* Reset default margin for <p> */
+    color: black;
+    font-size: 1rem;
+}
+
+.con2 {
+    display: flex;
+    justify-content: space-between;  /* Adjust spacing between conicons */
+    height: 200px;
+    margin-top: 200px;
+    margin-left: 25%;
+    margin-right: 30%;
+    align-items: center;
+}
+
+ 
