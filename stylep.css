@@ -118,3 +118,33 @@ hr{
     margin-right: 25%;
     margin-top: 30px;
 }
+/* Add this at the end of your existing CSS */
+/* Add this at the end of your existing CSS */
+
+
+/* Add this at the end of your existing CSS */
+@media only screen and (max-width: 764px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    nav ul li {
+        padding: 10px 0;
+    }
+}
