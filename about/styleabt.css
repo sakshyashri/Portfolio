@@ -162,3 +162,43 @@ hr{
     font-weight: 100;
     line-height: 30px;
 }
+@media only screen and (max-width: 764px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    nav ul li {
+        padding: 10px 0;
+    }
+}
+@media only screen and (max-width: 764px) {
+    .abtmesec {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .abtmesec img {
+        width: 80%; /* Adjust the width as needed */
+    }
+}
+@media only screen and (max-width: 764px) {
+    .p-edu {
+        margin: 15px; /* Adjust the margin as needed */
+    }
+}
